@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Sun, Moon } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
+import avaters from "../assets/avaters.jpg"
 
 export default function Navbar() {
   const { darkMode, toggleDarkMode } = useTheme();
@@ -16,7 +17,7 @@ export default function Navbar() {
     <nav className="flex justify-center py-4 bg-white dark:bg-gray-900 transition-colors duration-500 relative">
       {/* 头像 */}
       <img
-        src="/src/assets/avaters.jpg"
+        src={avaters}
         alt="avatar"
         className="w-12 rounded-full border border-gray-100 shadow-sm absolute top-[20%] left-[95%] hover:scale-110 cursor-pointer z-10"
         onClick={handleAvatarClick}

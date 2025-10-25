@@ -1,11 +1,15 @@
 import { useRef, useEffect, useState } from "react";
+import Travel1 from "../assets/Travel1.jpg"
+import Travel2 from "../assets/Travel2.jpg"
+import travel3 from "../assets/travel3.jpg"
+import travel4 from "../assets/travel4.jpg" 
 
 export default function About() { 
   const photos = [
-    { src: "src/assets/Travel1.jpg", title: "St. andrews" },
-    { src: "src/assets/Travel2.jpg", title: "Hong Kong" },
-    { src: "src/assets/travel3.jpg", title: "Edingberh" },
-    { src: "src/assets/travel4.jpg", title: "Scotland" },
+    { src: Travel1, title: "St. andrews" },
+    { src: Travel2, title: "Hong Kong" },
+    { src: travel3, title: "Edingberh" },
+    { src: travel4, title: "Scotland" },
   ];
 
   // 迷你高尔夫状态
