@@ -23,7 +23,11 @@ export default function About() {
     const height = canvas.height;
 
     let ball = { x: 100, y: height / 2, radius: 10, vx: 0, vy: 0, moving: false };
-    let hole = { x: 900, y: height / 2, radius: 15 };
+    let hole = {
+  x: width - 50,
+  y: height / 2,
+  radius: 15,
+};
     let dragging = false;
     let dragStart = { x: 0, y: 0 };
 
