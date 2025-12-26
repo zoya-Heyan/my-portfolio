@@ -9,7 +9,7 @@ export default function Projects() {
         {/* 页面标题 */}
         <h1 className="text-4xl font-extrabold text-blue-600 mb-4">My Projects</h1>
         <p className="text-gray-600 dark:text-gray-300 text-center mb-12 max-w-2xl">
-          A selection of my work in web development, Python, AI, and more.
+          A selection of my work.
         </p>
 
         {/* Grid */}

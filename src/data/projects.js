@@ -1,5 +1,5 @@
 // src/data/projects.js
-import draw from "../assets/draw.jpg";
+import draw from "../assets/drawer.jpg";
 import trans from "../assets/trans.jpg";
 import search from "../assets/searchEngine.png";
 
