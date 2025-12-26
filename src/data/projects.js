@@ -1,24 +1,29 @@
 // src/data/projects.js
+import draw from "../assets/draw.jpg";
+import trans from "../assets/trans.jpg";
+import search from "../assets/searchEngine.png";
+
+
 export const projects = [ 
   {
     title: "!Let's draw!",
     description: "",
     tech: ["cpp", "cmake", "makefile"],
-    image: "../assets/draw.jpg",
+    image: draw,
     github: "https://github.com/zoya-Heyan/Draw-your-own-painting",
   },
   {
     title: "static page for transforming",
     description: "png --> jpg or jpg --> png",
     tech: ["html", "CSS", "javascript"],
-    image: "../assets/trans.jpg",
+    image: trans,
     github: "https://github.com/zoya-Heyan/Static-websites-realise-format-conversion",
   },
   {
     title: "mini search engine linked to a database",
     description: "",
     tech: ["java", "spring boot", "mySQL"],
-    image: "../assets/searchEngine.png",
+    image: search,
     github: "https://github.com/zoya-Heyan/websearch"
   },
 ];
