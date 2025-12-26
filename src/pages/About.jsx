@@ -23,11 +23,7 @@ export default function About() {
     const height = canvas.height;
 
     let ball = { x: 100, y: height / 2, radius: 10, vx: 0, vy: 0, moving: false };
-    let hole = {
-  x: width - 50,
-  y: height / 2,
-  radius: 15,
-};
+    let hole = { x: 900, y: height / 2, radius: 15 };
     let dragging = false;
     let dragStart = { x: 0, y: 0 };
 
@@ -283,7 +279,7 @@ export default function About() {
         <canvas
           ref={canvasRef}
           className="border-2 border-gray-300 rounded-md cursor-pointer bg-green-200"
-          width={600}
+          width={900}
           height={300}
         />
         <p className="mt-2 text-lg relative">
