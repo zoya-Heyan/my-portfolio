@@ -279,7 +279,7 @@ export default function About() {
         <canvas
           ref={canvasRef}
           className="border-2 border-gray-300 rounded-md cursor-pointer bg-green-200"
-          width={1000}
+          width={600}
           height={300}
         />
         <p className="mt-2 text-lg relative">

@@ -1,25 +1,23 @@
 // src/data/projects.js
 export const projects = [ 
   {
-    title: "algorithm-visualizer",
+    title: "!Let's draw!",
     description: "",
-    tech: ["React", "Tailwind", "API", "data structure"],
-    image: "/assets/algorithm-visualizer.png",
-    github: "https://github.com/",
-    demo: "https://"
+    tech: ["cpp", "cmake", "makefile"],
+    image: "/assets/draw.png",
+    github: "https://github.com/zoya-Heyan/Draw-your-own-painting",
   },
   {
-    title: "Poker GUI Game",
-    description: "A visually enhanced poker game with animations and interactive UI.",
-    tech: ["Python", "Tkinter", "GUI"],
-    image: "/assets/poker.png",
-    github: "https://github.com/username/poker-gui",
+    title: "static page for transforming",
+    description: "png --> jpg or jpg --> png",
+    tech: ["html", "CSS", "javascript"],
+    image: "/assets/trans.png",
+    github: "https://github.com/zoya-Heyan/Static-websites-realise-format-conversion",
   },
   {
-    title: "AI Image Classifier",
-    description: "A CNN model classifying images of flowers using TensorFlow/Keras.",
-    tech: ["Python", "TensorFlow", "Machine Learning"],
-    image: "/assets/ai.png",
-    github: "https://github.com/username/ai-classifier",
+    title: "mini search engine linked to a database",
+    description: "",
+    tech: ["java", "spring boot", "mySQL"],
+    image: "/assets/searchEngine.png",
   },
 ];
