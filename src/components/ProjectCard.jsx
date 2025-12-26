@@ -26,5 +26,3 @@ export default function ProjectCard({ project }) {
     </div>
   );
 }
-
-console.log("image:", project.image);
