@@ -12,7 +12,7 @@ export default function Home() {
         <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 max-w-2xl">
           A Computer Science Student passionate about{" "}
           <span className="font-semibold text-blue-500 dark:text-blue-400">AI</span> &{" "}
-          <span className="font-semibold text-blue-500 dark:text-blue-400">Quantitative Finance</span>.
+          <span className="font-semibold text-blue-500 dark:text-blue-400">Back-end Architecture</span>.
         </p>
         <div className="flex gap-4 mt-8">
           <Link
@@ -36,8 +36,7 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-6">About Me</h2>
           <p className="text-gray-700 dark:text-gray-300 text-lg leading-relaxed">
             I'm currently studying Computer Science at UNNC. My interests include Machine Learning,
-            Web Development, and Financial AI. I enjoy creating modern web applications and exploring
-            how data can empower decision-making.
+            Web Development, and Back-end Architecture. I enjoy creating modern web applications and how a complete business is built.
           </p>
           <Link
             to="/about"
@@ -62,8 +61,8 @@ export default function Home() {
               desc: "Machine learning model predicting stock trends using Python.",
             },
             {
-              title: "Poker Game GUI",
-              desc: "A Python Tkinter game featuring animations and smart logic.",
+              title: "Search Engine",
+              desc: "A mini search engine linked to a database to provide relevant results.",
             },
           ].map((project, index) => (
             <div
@@ -93,11 +92,11 @@ export default function Home() {
             "Python",
             "C / C++",
             "React",
-            "TailwindCSS",
+            "TailwindCSS / CSS",
             "Flask",
             "Git & GitHub",
-            "Docker",
-            "VS Code",
+            "Java / JavaScript",
+            "MySQL",
           ].map((skill, index) => (
             <div
               key={index}
@@ -113,10 +112,10 @@ export default function Home() {
       <section className="py-20 px-6 md:px-20 bg-gradient-to-t from-blue-50 to-white dark:from-gray-900 dark:to-gray-950 text-center transition-all duration-500">
         <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
         <p className="text-gray-700 dark:text-gray-300 mb-8">
-          I'm always open to collaboration or interesting discussions about AI, finance, and web dev.
+          I'm always open to collaboration or interesting discussions about AI, web development, and back-end architecture. Feel free to reach out!
         </p>
         <a
-          href="mailto:your_email@example.com"
+          href="https://my-portfolio-gilt-seven-60.vercel.app/contact"
           className="bg-blue-600 text-white px-8 py-3 rounded-xl hover:bg-blue-700 transition-all duration-300"
         >
           Contact Me
