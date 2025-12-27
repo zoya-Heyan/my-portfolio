@@ -56,7 +56,7 @@ export default function Footer() {
             <i className="fab fa-youtube text-2xl"></i>
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/ChenHe42036"
             target="_blank"
             className="text-[#1DA1F2] hover:scale-110 transition-transform duration-300"
           >
